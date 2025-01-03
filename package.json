@@ -4,8 +4,7 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "author": "Durbek Saydaliyev",
   "license": "ISC",
@@ -14,10 +13,10 @@
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "mongoose": "^8.9.3",
-    "node-telegram-bot-api": "^0.66.0",
-    "nodemon": "^3.1.9"
+    "node-telegram-bot-api": "^0.66.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.9",
     "@types/node-telegram-bot-api": "^0.64.7"
   }
 }
